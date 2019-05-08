@@ -8,6 +8,7 @@ namespace C0742279
 {
     class Program
     {
+        //static int counter = 0;
         static void Main(string[] args)
         {
 
@@ -24,14 +25,31 @@ namespace C0742279
             }
             Console.ReadLine();
         }
-        // A assignment for adding numnbers step down by 6 
-        /* int sum =0;
-          int start=314;
-          int end=102;
-          int StepDownValue=6;
-          for (Console.Writeline(startingh For");i>end;Console.Writeline(3rd term For"))
-          {
-            sum +=i;
-         } Console.Writeline(" the  answer is {0}", sum);             */
+
+            // A assignment for adding numnbers step down by 6 
+            //int sum = 0;
+            //int start = 314;
+            //int end = 102;
+            //int StepDownValue = 6;
+
+          /* for ( Console.WriteLine("point a") ; IsLogicalValue() ; Console.WriteLine("point b"))
+            {
+                Console.WriteLine("Help I am stuck in an infinite loop!!");
+
+
+            }
+
+        }
+
+
+        public static bool IsLogicalValue()
+        {
+            counter++;
+
+            if (counter > 5) return false;
+
+
+            return true;
+        }*/
     }
 }
