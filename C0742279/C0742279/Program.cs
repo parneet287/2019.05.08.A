@@ -11,10 +11,10 @@ namespace C0742279
         static void Main(string[] args)
         {
 
-            int a ,b ;
+            int a, b;
 
             Console.Write("Display the multiplication table:\n");
-           
+
             Console.Write("Input the number to be calculated : ");
             b = Convert.ToInt32(Console.ReadLine());
             Console.Write("\n");
@@ -24,5 +24,14 @@ namespace C0742279
             }
             Console.ReadLine();
         }
+        // A assignment for adding numnbers step down by 6 
+        /* int sum =0;
+          int start=314;
+          int end=102;
+          int StepDownValue=6;
+          for (Console.Writeline(startingh For");i>end;Console.Writeline(3rd term For"))
+          {
+            sum +=i;
+         } Console.Writeline(" the  answer is {0}", sum);             */
     }
 }
